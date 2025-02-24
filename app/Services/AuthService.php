@@ -85,7 +85,6 @@ class AuthService
         return ['message' => 'we send new code to your email'];
     }
 
-
     public function verification(User4 $request)
     {
         $email =$this->controllerService->checkToken($request);
